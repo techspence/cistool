@@ -8,9 +8,9 @@ def index():
     return render_template('index.html')
 
 
-@app.route('/manage_controls')
-def manage_controls():
-    return render_template('manage_controls.html')
+@app.route('/base_control')
+def base_control():
+    return render_template('base_control.html')
 
 
 @app.route('/login')
